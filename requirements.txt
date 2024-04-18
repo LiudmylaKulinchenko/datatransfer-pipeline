@@ -1,0 +1,6 @@
+jupyter==1.0.0
+pandas==2.2.2
+numpy==1.26.4
+google-cloud-bigquery-3.20.1
+python-dotenv==1.0.1
+dask==2024.4.1
