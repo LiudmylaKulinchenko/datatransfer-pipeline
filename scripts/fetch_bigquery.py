@@ -85,7 +85,6 @@ if __name__ == "__main__":
     available_dates = dates_list_from_bigquery(bigquery_client)
     all_data_ddf = asyncio.run(fetch_concurrent_data(available_dates, bigquery_client))
     print(all_data_ddf, type(all_data_ddf))
-    all_data_ddf.to_parquet()
 
     finish = datetime.now()
 
